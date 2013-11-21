@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DA01658183BE50000D4665C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA01657183BE50000D4665C /* Foundation.framework */; };
+		3DA0165A183BE50000D4665C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA01659183BE50000D4665C /* CoreGraphics.framework */; };
+		3DA0165C183BE50000D4665C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA0165B183BE50000D4665C /* UIKit.framework */; };
+		3DA01662183BE50000D4665C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DA01660183BE50000D4665C /* InfoPlist.strings */; };
+		3DA01664183BE50000D4665C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA01663183BE50000D4665C /* main.m */; };
+		3DA01668183BE50000D4665C /* HVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA01667183BE50000D4665C /* HVAppDelegate.m */; };
+		3DA0166E183BE50000D4665C /* HVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA0166D183BE50000D4665C /* HVViewController.m */; };
+		3DA01670183BE50000D4665C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA0166F183BE50000D4665C /* Images.xcassets */; };
+		3DA01677183BE50000D4665C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA01676183BE50000D4665C /* XCTest.framework */; };
+		3DA01678183BE50000D4665C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA01657183BE50000D4665C /* Foundation.framework */; };
+		3DA01679183BE50000D4665C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA0165B183BE50000D4665C /* UIKit.framework */; };
+		3DA01681183BE50000D4665C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DA0167F183BE50000D4665C /* InfoPlist.strings */; };
+		3DA01683183BE50000D4665C /* HVColorSelectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA01682183BE50000D4665C /* HVColorSelectorTests.m */; };
+		3DA01691183BE52A00D4665C /* HVColorSelectSpectrumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA0168D183BE52A00D4665C /* HVColorSelectSpectrumViewController.m */; };
+		3DA01693183BE52A00D4665C /* HVSpectrumView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA01690183BE52A00D4665C /* HVSpectrumView.m */; };
+		3DA01695183C05F800D4665C /* Main_iPhone4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA01669183BE50000D4665C /* Main_iPhone4.storyboard */; };
+		3DA01699183D3BA400D4665C /* Main_iPhone5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA01698183D3BA400D4665C /* Main_iPhone5.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DA0167A183BE50000D4665C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DA0164C183BE50000D4665C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DA01653183BE50000D4665C;
+			remoteInfo = HVColorSelector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DA01654183BE50000D4665C /* HVColorSelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HVColorSelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA01657183BE50000D4665C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3DA01659183BE50000D4665C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3DA0165B183BE50000D4665C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3DA0165F183BE50000D4665C /* HVColorSelector-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HVColorSelector-Info.plist"; sourceTree = "<group>"; };
+		3DA01661183BE50000D4665C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3DA01663183BE50000D4665C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DA01665183BE50000D4665C /* HVColorSelector-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HVColorSelector-Prefix.pch"; sourceTree = "<group>"; };
+		3DA01666183BE50000D4665C /* HVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HVAppDelegate.h; sourceTree = "<group>"; };
+		3DA01667183BE50000D4665C /* HVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HVAppDelegate.m; sourceTree = "<group>"; };
+		3DA0166A183BE50000D4665C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone4.storyboard; sourceTree = "<group>"; };
+		3DA0166C183BE50000D4665C /* HVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HVViewController.h; sourceTree = "<group>"; };
+		3DA0166D183BE50000D4665C /* HVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HVViewController.m; sourceTree = "<group>"; };
+		3DA0166F183BE50000D4665C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3DA01675183BE50000D4665C /* HVColorSelectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HVColorSelectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA01676183BE50000D4665C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3DA0167E183BE50000D4665C /* HVColorSelectorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HVColorSelectorTests-Info.plist"; sourceTree = "<group>"; };
+		3DA01680183BE50000D4665C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3DA01682183BE50000D4665C /* HVColorSelectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HVColorSelectorTests.m; sourceTree = "<group>"; };
+		3DA0168C183BE52A00D4665C /* HVColorSelectSpectrumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVColorSelectSpectrumViewController.h; sourceTree = "<group>"; };
+		3DA0168D183BE52A00D4665C /* HVColorSelectSpectrumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVColorSelectSpectrumViewController.m; sourceTree = "<group>"; };
+		3DA0168F183BE52A00D4665C /* HVSpectrumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVSpectrumView.h; sourceTree = "<group>"; };
+		3DA01690183BE52A00D4665C /* HVSpectrumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVSpectrumView.m; sourceTree = "<group>"; };
+		3DA01698183D3BA400D4665C /* Main_iPhone5.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone5.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DA01651183BE50000D4665C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA0165A183BE50000D4665C /* CoreGraphics.framework in Frameworks */,
+				3DA0165C183BE50000D4665C /* UIKit.framework in Frameworks */,
+				3DA01658183BE50000D4665C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA01672183BE50000D4665C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA01677183BE50000D4665C /* XCTest.framework in Frameworks */,
+				3DA01679183BE50000D4665C /* UIKit.framework in Frameworks */,
+				3DA01678183BE50000D4665C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DA0164B183BE50000D4665C = {
+			isa = PBXGroup;
+			children = (
+				3DA0165D183BE50000D4665C /* HVColorSelector */,
+				3DA0167C183BE50000D4665C /* HVColorSelectorTests */,
+				3DA01656183BE50000D4665C /* Frameworks */,
+				3DA01655183BE50000D4665C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DA01655183BE50000D4665C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DA01654183BE50000D4665C /* HVColorSelector.app */,
+				3DA01675183BE50000D4665C /* HVColorSelectorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DA01656183BE50000D4665C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DA01657183BE50000D4665C /* Foundation.framework */,
+				3DA01659183BE50000D4665C /* CoreGraphics.framework */,
+				3DA0165B183BE50000D4665C /* UIKit.framework */,
+				3DA01676183BE50000D4665C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DA0165D183BE50000D4665C /* HVColorSelector */ = {
+			isa = PBXGroup;
+			children = (
+				3DA01694183C025A00D4665C /* HVColorSelectorSpectrum */,
+				3DA01666183BE50000D4665C /* HVAppDelegate.h */,
+				3DA01667183BE50000D4665C /* HVAppDelegate.m */,
+				3DA0166C183BE50000D4665C /* HVViewController.h */,
+				3DA0166D183BE50000D4665C /* HVViewController.m */,
+				3DA0166F183BE50000D4665C /* Images.xcassets */,
+				3DA0165E183BE50000D4665C /* Supporting Files */,
+			);
+			path = HVColorSelector;
+			sourceTree = "<group>";
+		};
+		3DA0165E183BE50000D4665C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DA01698183D3BA400D4665C /* Main_iPhone5.storyboard */,
+				3DA01669183BE50000D4665C /* Main_iPhone4.storyboard */,
+				3DA0165F183BE50000D4665C /* HVColorSelector-Info.plist */,
+				3DA01660183BE50000D4665C /* InfoPlist.strings */,
+				3DA01663183BE50000D4665C /* main.m */,
+				3DA01665183BE50000D4665C /* HVColorSelector-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DA0167C183BE50000D4665C /* HVColorSelectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DA01682183BE50000D4665C /* HVColorSelectorTests.m */,
+				3DA0167D183BE50000D4665C /* Supporting Files */,
+			);
+			path = HVColorSelectorTests;
+			sourceTree = "<group>";
+		};
+		3DA0167D183BE50000D4665C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DA0167E183BE50000D4665C /* HVColorSelectorTests-Info.plist */,
+				3DA0167F183BE50000D4665C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DA01694183C025A00D4665C /* HVColorSelectorSpectrum */ = {
+			isa = PBXGroup;
+			children = (
+				3DA0168C183BE52A00D4665C /* HVColorSelectSpectrumViewController.h */,
+				3DA0168D183BE52A00D4665C /* HVColorSelectSpectrumViewController.m */,
+				3DA0168F183BE52A00D4665C /* HVSpectrumView.h */,
+				3DA01690183BE52A00D4665C /* HVSpectrumView.m */,
+			);
+			name = HVColorSelectorSpectrum;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DA01653183BE50000D4665C /* HVColorSelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA01686183BE50000D4665C /* Build configuration list for PBXNativeTarget "HVColorSelector" */;
+			buildPhases = (
+				3DA01650183BE50000D4665C /* Sources */,
+				3DA01651183BE50000D4665C /* Frameworks */,
+				3DA01652183BE50000D4665C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HVColorSelector;
+			productName = HVColorSelector;
+			productReference = 3DA01654183BE50000D4665C /* HVColorSelector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DA01674183BE50000D4665C /* HVColorSelectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA01689183BE50000D4665C /* Build configuration list for PBXNativeTarget "HVColorSelectorTests" */;
+			buildPhases = (
+				3DA01671183BE50000D4665C /* Sources */,
+				3DA01672183BE50000D4665C /* Frameworks */,
+				3DA01673183BE50000D4665C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DA0167B183BE50000D4665C /* PBXTargetDependency */,
+			);
+			name = HVColorSelectorTests;
+			productName = HVColorSelectorTests;
+			productReference = 3DA01675183BE50000D4665C /* HVColorSelectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DA0164C183BE50000D4665C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HV;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Vora, Hetal";
+				TargetAttributes = {
+					3DA01674183BE50000D4665C = {
+						TestTargetID = 3DA01653183BE50000D4665C;
+					};
+				};
+			};
+			buildConfigurationList = 3DA0164F183BE50000D4665C /* Build configuration list for PBXProject "HVColorSelector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DA0164B183BE50000D4665C;
+			productRefGroup = 3DA01655183BE50000D4665C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DA01653183BE50000D4665C /* HVColorSelector */,
+				3DA01674183BE50000D4665C /* HVColorSelectorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DA01652183BE50000D4665C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA01695183C05F800D4665C /* Main_iPhone4.storyboard in Resources */,
+				3DA01670183BE50000D4665C /* Images.xcassets in Resources */,
+				3DA01699183D3BA400D4665C /* Main_iPhone5.storyboard in Resources */,
+				3DA01662183BE50000D4665C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA01673183BE50000D4665C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA01681183BE50000D4665C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DA01650183BE50000D4665C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA01693183BE52A00D4665C /* HVSpectrumView.m in Sources */,
+				3DA0166E183BE50000D4665C /* HVViewController.m in Sources */,
+				3DA01668183BE50000D4665C /* HVAppDelegate.m in Sources */,
+				3DA01664183BE50000D4665C /* main.m in Sources */,
+				3DA01691183BE52A00D4665C /* HVColorSelectSpectrumViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA01671183BE50000D4665C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA01683183BE50000D4665C /* HVColorSelectorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DA0167B183BE50000D4665C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DA01653183BE50000D4665C /* HVColorSelector */;
+			targetProxy = 3DA0167A183BE50000D4665C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DA01660183BE50000D4665C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DA01661183BE50000D4665C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3DA01669183BE50000D4665C /* Main_iPhone4.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DA0166A183BE50000D4665C /* Base */,
+			);
+			name = Main_iPhone4.storyboard;
+			sourceTree = "<group>";
+		};
+		3DA0167F183BE50000D4665C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DA01680183BE50000D4665C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DA01684183BE50000D4665C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_OWNER = Hetal;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3DA01685183BE50000D4665C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INSTALL_OWNER = Hetal;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DA01687183BE50000D4665C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HVColorSelector/HVColorSelector-Prefix.pch";
+				INFOPLIST_FILE = "HVColorSelector/HVColorSelector-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3DA01688183BE50000D4665C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HVColorSelector/HVColorSelector-Prefix.pch";
+				INFOPLIST_FILE = "HVColorSelector/HVColorSelector-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3DA0168A183BE50000D4665C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HVColorSelector.app/HVColorSelector";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HVColorSelector/HVColorSelector-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HVColorSelectorTests/HVColorSelectorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3DA0168B183BE50000D4665C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HVColorSelector.app/HVColorSelector";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HVColorSelector/HVColorSelector-Prefix.pch";
+				INFOPLIST_FILE = "HVColorSelectorTests/HVColorSelectorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DA0164F183BE50000D4665C /* Build configuration list for PBXProject "HVColorSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA01684183BE50000D4665C /* Debug */,
+				3DA01685183BE50000D4665C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DA01686183BE50000D4665C /* Build configuration list for PBXNativeTarget "HVColorSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA01687183BE50000D4665C /* Debug */,
+				3DA01688183BE50000D4665C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DA01689183BE50000D4665C /* Build configuration list for PBXNativeTarget "HVColorSelectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA0168A183BE50000D4665C /* Debug */,
+				3DA0168B183BE50000D4665C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DA0164C183BE50000D4665C /* Project object */;
+}

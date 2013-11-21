@@ -1,0 +1,24 @@
+
+/* Class = "IBUIBarButtonItem"; title = "Cancel"; ObjectID = "4RF-ll-IbH"; */
+"4RF-ll-IbH.title" = "Cancel";
+
+/* Class = "IBUILabel"; text = "R:"; ObjectID = "Uwi-qk-H7z"; */
+"Uwi-qk-H7z.text" = "R:";
+
+/* Class = "IBUILabel"; text = "1.0"; ObjectID = "Wzx-8v-KEp"; */
+"Wzx-8v-KEp.text" = "1.0";
+
+/* Class = "IBUILabel"; text = "Opacity:"; ObjectID = "XTo-bv-PZr"; */
+"XTo-bv-PZr.text" = "Opacity:";
+
+/* Class = "IBUILabel"; text = "G:"; ObjectID = "bLI-BI-jyG"; */
+"bLI-BI-jyG.text" = "G:";
+
+/* Class = "IBUILabel"; text = "B:"; ObjectID = "cz4-e1-s9K"; */
+"cz4-e1-s9K.text" = "B:";
+
+/* Class = "IBUIBarButtonItem"; title = "Done"; ObjectID = "hzR-X2-Cyt"; */
+"hzR-X2-Cyt.title" = "Done";
+
+/* Class = "IBUIBarButtonItem"; title = "Pick BGcolor"; ObjectID = "mKA-ql-dyP"; */
+"mKA-ql-dyP.title" = "Pick BGcolor";
