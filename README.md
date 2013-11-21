@@ -14,7 +14,6 @@ Color Select Spectrum View from Main_iPhone4.storyboard to support 3.5 inch disp
 
 2. HVColorSelectSpectrumViewController.h declares a protocol called 'HVColorSelectorDelegate'. Your class which allocates, initializes and presents the HVColorSelectSpectrumViewController will have to be set as the 'colorSelectorDelegate' for HVColorSelectSpectrumViewController and will need to implement the HVColorSelectorDelegate protocol. You can refer to HVViewController.h and HVViewController.m files to see how this is done.
 
-
 3. The 'HVColorSelectorDelegate' has just one method '-(void)didSelectColor:(UIColor*)selectedColor' which will be called on the delegate when you select any color from the color selector spectrum. This will get you the UIColor object for the selected color.
 
 The other files are merely to demo the capability of HVColorSelector:
