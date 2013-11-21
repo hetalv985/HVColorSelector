@@ -6,13 +6,19 @@ iPhone 5s form factors. The project has been created with Xcode 5.0 with iOS 7. 
 
 To add HVColorSelector to your project:
 
-1. You will need to add the following files to your project:
+You will need to add the following files to your project:
+
 HVColorSelectSpectrumViewController.h
+
 HVColorSelectSpectrumViewController.m
+
 HVSpectrumView.h
+
 HVSpectrumView.m
+
 Color Select Spectrum View from Main_iPhone5.storyboard to support 4 inch displays
-Color Select Spectrum View from Main_iPhone4.storyboard to support 3.5 inch displays.
+
+Color Select Spectrum View from Main_iPhone4.storyboard to support 3.5 inch displays
 
 2. HVColorSelectSpectrumViewController.h declares a protocol called 'HVColorSelectorDelegate'. Your class which allocates, initializes and presents the HVColorSelectSpectrumViewController will have to be set as the 'colorSelectorDelegate' for HVColorSelectSpectrumViewController and will need to implement the HVColorSelectorDelegate protocol. You can refer to HVViewController.h and HVViewController.m files to see how this is done.
 
