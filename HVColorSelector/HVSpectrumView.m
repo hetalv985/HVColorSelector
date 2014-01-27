@@ -20,7 +20,6 @@
 #import "HVSpectrumView.h"
 
 @interface HVSpectrumView(){
-    int xStep, yStep;
 }
 
 @end
@@ -39,31 +38,11 @@
 }
 
 -(void)awakeFromNib{
-    xStep = self.frame.size.width/255;
-    yStep = self.frame.size.height/255;
+    UIImageView *imgView = [[UIImageView alloc] initWithFrame:self.bounds];
+    imgView.image = [UIImage imageNamed:@"spectrum"];
+    [self addSubview:imgView];
 }
 
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
-{
-    // Drawing code
-    CGContextRef context = UIGraphicsGetCurrentContext();
-    CGFloat hue=0.0, brightness=0.0;
-    
-    for(int y=0;y<=rect.size.height;y+=yStep){
-        hue = 0;
-        for (int x=0;x<=rect.size.width;x+=xStep){
-            
-            CGContextSetFillColorWithColor(context, [[UIColor colorWithHue:hue/255.0 saturation:1.0 brightness:brightness/255.0 alpha:1.0] CGColor]);
-            CGContextFillRect(context, CGRectMake(x, y, xStep, yStep));
-            hue = hue+1;
-            
-        }
-        brightness = brightness +1.0;
-    }
-    
-}
 
 -(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{
     UITouch *touch = [touches anyObject];
