@@ -1,7 +1,7 @@
 HVColorSelector
 ===============
 
-HVSelector is a simple color selector for iOS. It is currently designed to work for iPhone 4, iPhone 4s, iPhone 5 and
+HVColorSelector is a simple color selector for iOS. It is currently designed to work for iPhone 4, iPhone 4s, iPhone 5 and
 iPhone 5s form factors. The project has been created with Xcode 5.0 with iOS 7. The deployment target is iOS 6.0 which means it works on iOS 6.0, 6.1, 7.0 and above. The code has been tested on iOS simulators for iOS 6.0, 6.1 and 7.0 with 3.5 inch and 4 inch displays. Check out the wiki page to see the screen shots.
 
 To add HVColorSelector to your project:
@@ -22,7 +22,7 @@ Color Select Spectrum View from Main_iPhone4.storyboard to support 3.5 inch disp
 
 2. HVColorSelectSpectrumViewController.h declares a protocol called 'HVColorSelectorDelegate'. Your class which allocates, initializes and presents the HVColorSelectSpectrumViewController will have to be set as the 'colorSelectorDelegate' for HVColorSelectSpectrumViewController and will need to implement the HVColorSelectorDelegate protocol. You can refer to HVViewController.h and HVViewController.m files to see how this is done.
 
-3. The 'HVColorSelectorDelegate' has just one method '-(void)didSelectColor:(UIColor*)selectedColor' which will be called on the delegate when you select any color from the color selector spectrum. This will get you the UIColor object for the selected color.
+3. The 'HVColorSelectorDelegate' has just one method '-(void)didSelectColor:(UIColor*)selectedColor' which will be called on the delegate when you select any color from the color selector spectrum and click Done. This will get you the UIColor object for the selected color.
 
 The other files are merely to demo the capability of HVColorSelector:
 
