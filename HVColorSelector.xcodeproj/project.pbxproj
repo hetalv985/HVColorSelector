@@ -22,8 +22,8 @@
 		3DA01683183BE50000D4665C /* HVColorSelectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA01682183BE50000D4665C /* HVColorSelectorTests.m */; };
 		3DA01691183BE52A00D4665C /* HVColorSelectSpectrumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA0168D183BE52A00D4665C /* HVColorSelectSpectrumViewController.m */; };
 		3DA01693183BE52A00D4665C /* HVSpectrumView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA01690183BE52A00D4665C /* HVSpectrumView.m */; };
-		3DA01695183C05F800D4665C /* Main_iPhone4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA01669183BE50000D4665C /* Main_iPhone4.storyboard */; };
 		3DA01699183D3BA400D4665C /* Main_iPhone5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA01698183D3BA400D4665C /* Main_iPhone5.storyboard */; };
+		3DB01E3C1848FC14003D9AE8 /* Main_iPhone4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA01669183BE50000D4665C /* Main_iPhone4.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +47,6 @@
 		3DA01665183BE50000D4665C /* HVColorSelector-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HVColorSelector-Prefix.pch"; sourceTree = "<group>"; };
 		3DA01666183BE50000D4665C /* HVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HVAppDelegate.h; sourceTree = "<group>"; };
 		3DA01667183BE50000D4665C /* HVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HVAppDelegate.m; sourceTree = "<group>"; };
-		3DA0166A183BE50000D4665C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone4.storyboard; sourceTree = "<group>"; };
 		3DA0166C183BE50000D4665C /* HVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HVViewController.h; sourceTree = "<group>"; };
 		3DA0166D183BE50000D4665C /* HVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HVViewController.m; sourceTree = "<group>"; };
 		3DA0166F183BE50000D4665C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -61,6 +60,7 @@
 		3DA0168F183BE52A00D4665C /* HVSpectrumView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVSpectrumView.h; sourceTree = "<group>"; };
 		3DA01690183BE52A00D4665C /* HVSpectrumView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVSpectrumView.m; sourceTree = "<group>"; };
 		3DA01698183D3BA400D4665C /* Main_iPhone5.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone5.storyboard; sourceTree = "<group>"; };
+		3DB01E3D1848FCB0003D9AE8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main_iPhone4.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,7 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DA01695183C05F800D4665C /* Main_iPhone4.storyboard in Resources */,
+				3DB01E3C1848FC14003D9AE8 /* Main_iPhone4.storyboard in Resources */,
 				3DA01670183BE50000D4665C /* Images.xcassets in Resources */,
 				3DA01699183D3BA400D4665C /* Main_iPhone5.storyboard in Resources */,
 				3DA01662183BE50000D4665C /* InfoPlist.strings in Resources */,
@@ -310,7 +310,7 @@
 		3DA01669183BE50000D4665C /* Main_iPhone4.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3DA0166A183BE50000D4665C /* Base */,
+				3DB01E3D1848FCB0003D9AE8 /* en */,
 			);
 			name = Main_iPhone4.storyboard;
 			sourceTree = "<group>";
