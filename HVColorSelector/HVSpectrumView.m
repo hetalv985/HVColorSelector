@@ -55,10 +55,8 @@
         hue = 0;
         for (int x=0;x<=rect.size.width;x+=xStep){
             
-            CGContextSaveGState(context);
             CGContextSetFillColorWithColor(context, [[UIColor colorWithHue:hue/255.0 saturation:1.0 brightness:brightness/255.0 alpha:1.0] CGColor]);
             CGContextFillRect(context, CGRectMake(x, y, xStep, yStep));
-            CGContextRestoreGState(context);
             hue = hue+1;
             
         }
