@@ -1,6 +1,9 @@
 HVColorSelector
 ===============
 
+Update: In case you face a crash on trying to run the project, select the Target in Xcode. Click on General. Go to Deployment Info section and set the 'Main Interface' to be either 'Main_iPhone4' or 'Main_iPhone5' storyboard and then run the app.
+
+
 HVColorSelector is a simple color selector for iOS. It is currently designed to work for iPhone 4, iPhone 4s, iPhone 5 and
 iPhone 5s form factors. The project has been created with Xcode 5.0 with iOS 7. The deployment target is iOS 6.0 which means it works on iOS 6.0, 6.1, 7.0 and above. The code has been tested on iOS simulators for iOS 6.0, 6.1 and 7.0 with 3.5 inch and 4 inch displays. Check out the wiki page to see the screen shots.
 
