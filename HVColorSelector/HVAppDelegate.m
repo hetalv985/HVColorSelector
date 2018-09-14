@@ -29,7 +29,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = navController;
     [self.window makeKeyAndVisible];
-    return YES
+    return YES;
 }
 
 -(UIStoryboard*) getStoryboard {
