@@ -227,6 +227,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Vora, Hetal";
 				TargetAttributes = {
+					3DA01653183BE50000D4665C = {
+						DevelopmentTeam = Y6S4L7PV75;
+					};
 					3DA01674183BE50000D4665C = {
 						TestTargetID = 3DA01653183BE50000D4665C;
 					};
@@ -413,6 +416,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = Y6S4L7PV75;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HVColorSelector/HVColorSelector-Prefix.pch";
 				INFOPLIST_FILE = "HVColorSelector/HVColorSelector-Info.plist";
@@ -426,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = Y6S4L7PV75;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HVColorSelector/HVColorSelector-Prefix.pch";
 				INFOPLIST_FILE = "HVColorSelector/HVColorSelector-Info.plist";
